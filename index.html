@@ -16,31 +16,34 @@
 
 <body>
     <section style="height: 100%;" class="container-fluid my-section1">
-        <div class="row mx-5">
-            <div class="col-lg-3 mx-5">
-                <img style="margin-top: -7%; margin-left: 7%;" src="images/main-logo-removebg-preview.png" width="67%"
+        <div class="row mx-lg-5">
+            <div class="col-lg-3 col-md-3 my-logo-div mx-lg-5">
+                <img class="logo-img" style="margin-top: -7%; margin-left: 7%;" src="images/main-logo-removebg-preview.png" width="67%"
                     height="130%" alt="">
             </div>
         
 
-            <div style="margin-left: 45%;" class="col-lg-2 mt-4">
-                <div>
+            <div style="margin-left: 45%;" class="col-lg-2 row my-select-left col-md-2 mt-lg-4">
+               
 
-                    <select class="form-select w-50 bg-transparent text-white fa-globe" aria-label="Default select example">
+                    <select style="width:50%; height:47%;" class="form-select   bg-transparent text-white fa-globe" aria-label="Default select example">
 
                         <option selected>English</option>
 
                         <option value="2">हिन्दी</option>
 
                     </select>
-                </div>
+                    <a style="width: 50%;" class="text-white " href="#"><button style="background-color: #ef0713; " class="text-white my-btn-text btn-danger my-first-btn fw-bold btn">
+                        Sign In
+                    </button></a>
+          
             </div>
-            <div style="margin-left: -8%;" class="col-lg-1 text-start mt-4">
-                <a class="text-white" href="#"><button style="background-color: #ef0713; " class="text-white btn-danger fw-bold btn">
+            <!-- <div style="margin-left: -8%;" class="col-lg-1 col-md-1 text-start mt-4">
+                <a  class="text-white" href="#"><button style="background-color: #ef0713; " class="text-white btn-danger fw-bold btn">
                         Sign In
                     </button></a>
 
-            </div>
+            </div> -->
        
         </div>
         <div style="margin-top: 12%;" class="row">
@@ -59,7 +62,7 @@
         <div  class="row mt-3 mx-1 align-items-center">
             <div class="row" style="margin-bottom: 12%;">
                 <div  class=" col-lg-12 text-center">
-                    <input style="background-color: #17161696; width: 30%;" class=" p-3 rounded-2 " type="email" placeholder="Email address">
+                    <input style="background-color: #17161696; width: 30%;" class=" p-3 rounded-2 my-input-holder " type="email" placeholder="Email address">
                     <a class="text-white mx-1 text-decoration-none " href="#"> <button
                         style="background-color: #ef0713; font-size: 18px;"
                         class="btn p-3 px-5 rounded-2 fw-bold text-white btn-danger">Get
@@ -77,15 +80,15 @@
     <section class="container-fluid bg-black">
         <div class="row">
             <div class="row align-self-center" style="margin-bottom: 3%; margin-top: 1%;">
-                <div style="margin-left: 11%; " class="col-lg-5 mt-1  align-self-center">
+                <div style="margin-left: 11%; " class="col-lg-5 mt-lg-1 mt-5 my-float-sections align-self-center">
                     <div class="text-start  ">
                         <h1 style="font-weight: 1000; font-size: 50px;" class="text-white ">Enjoy on your TV</h1>
                         <h4 class="text-white fw-normal mt-4">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple
                             TV, Blu-ray players and more.</h4>
                     </div>
                 </div>
-                <div style="margin-bottom: 8%;" class="col-lg-5 mt-5 text-start ">
-                    <div> <img class="img position-absolute" src="images/section2.png" width="38%" alt=""></div>
+                <div style="margin-bottom: 8%;" class="col-lg-5  my-vdo-sections mt-lg-5 text-start ">
+                    <div> <img class="img my-absolute-img position-absolute" src="images/section2.png" width="38%" alt=""></div>
                     <div class="  d-flex justify-content-center flex-column text-start"> <video preload="true"
                             autoplay="autoplay" loop="loop" volume="0" style="margin-top: 15%; margin-left: 12.5%;"
                             src="images/vdo1.m4v" type="video/mp4" width="74%"></video></div>
@@ -99,17 +102,12 @@
     <section class="bg-black">
         <div class="container-fluid">
             <div  class="row third-row">
-                <div style="margin-top: 4%; margin-bottom: 1%;" class="col-lg-6 text-end">
+                <div style="margin-top: 4%; margin-bottom: 1%;" class="col-lg-6 text-end img-to-hide">
                     <img class="pic1" src="images/section3.jpg" height="80%" width="80%" alt="start-up">
-                    <!-- <div class="col-lg-4 align-content-center rounded-3 my-card card">
-                <div class="card-body bg-black">
-                    <img class="pic2 text-start" src="images/section3_short.png" width="12%" height="10%" alt="">
-                </div>
-              
-              </div> -->
+                 
 
                 </div>
-                <div class="col-lg-5 text-start align-self-center">
+                <div class="col-lg-5 text-start mt-lg-0 mt-5 align-self-center">
                     <!-- <h1 class="big_heading fw-bolder text-white">Download your shows to watch offline</h1>
                     <p class="paragraph2 text-white">Save your favourites easily and always have something to watch.
                     </p> -->
@@ -117,19 +115,24 @@
                     <h4 style="width: 95%;" class="text-white  fw-normal mt-4">Save your favourites easily and always have something to watch.</h4>
 
                 </div>
+                <div style="margin-top: 4%; margin-bottom: 1%;" class="col-lg-6 text-end my-hidden-img">
+                    <img class="pic1" src="images/section3.jpg" height="80%" width="80%" alt="start-up">
+                 
+
+                </div>
     </section>
     <hr class="my-hr">
     <section class="container-fluid bg-black">
         <div class="row">
             <div class="row align-self-center" style="margin-bottom: 3%; margin-top: 1%;">
-                <div style="margin-left: 11%; " class="col-lg-5 mt-1  align-self-center">
+                <div style="margin-left: 11%; " class="col-lg-5 mt-lg-1 my-float-sections mt-5 align-self-center">
                     <div class="text-start  ">
                         <h1 style="font-weight: 1000; font-size: 50px;" class="text-white ">Watch everywhere</h1>
                         <h4 style="width: 90%;" class="text-white fw-normal mt-4">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h4>
                     </div>
                 </div>
-                <div style="margin-bottom: 15%;" class="col-lg-5 mt-5 text-start ">
-                    <div> <img class="img position-absolute" src="images/section4.png" width="38%" alt=""></div>
+                <div style="margin-bottom: 15%;" class="col-lg-5 my-vdo-sections mt-5 text-start ">
+                    <div> <img class="img my-absolute-img position-absolute" src="images/section4.png" width="38%" alt=""></div>
                     <div class="  d-flex justify-content-center flex-column text-start"> <video preload="true"
                             autoplay="autoplay" loop="loop" volume="0" style="margin-top: 5%; margin-left: 17%;"
                             src="images/vdo2.m4v" type="video/mp4" width="60%"></video></div>
@@ -142,18 +145,21 @@
    
     <section class="container-fluid bg-black">
         <div class="row gx-lg-0">
-            <div style="margin-top: 5%; margin-bottom: 2%;" class="col-lg-6 text-end">
-                <img src="images/section5.png" height="95%" alt="">
+            <div style="margin-top: 5%; margin-bottom: 2%;" class="col-lg-6 text-end img-to-hide">
+                <img src="images/section5.png" height="95%" width="90%" alt="">
             </div>
-            <div  class="col-lg-6 align-self-center">
-                <div class="text-start ">
+            <div  class="col-lg-6 mt-lg-0 mt-5 align-self-center">
+                <div class="text-start">
                     <!-- <h1 class="text-white fw-bolder">Create profiles for kids</h1>
                     <h4 class="text-white fw-normal">Send children on adventures with their favourite characters in a
                         space made just for them—free with your membership.</h4> -->
-                        <h1 style="font-weight: 1000; font-size: 50px;" class="text-white ">Create profiles for kids</h1>
-                        <h4 style="width: 75%;" class="text-white  fw-normal mt-4">Send children on adventures with their favourite characters in a
+                        <h1 style="font-weight: 1000; font-size: 50px;" class="text-white  ">Create profiles for kids</h1>
+                        <h4 style="width: 75%;" class="text-white   fw-normal mt-4">Send children on adventures with their favourite characters in a
                             space made just for them—free with your membership.</h4>
                 </div>
+            </div>
+            <div style="margin-top: 5%; margin-bottom: 2%;" class="col-lg-6 my-hidden-img text-end">
+                <img src="images/section5.png" height="95%" width="90%" alt="">
             </div>
         </div>
     </section>
@@ -302,10 +308,10 @@
             </div>
             <div class="row mt-2 mx-5 align-items-center">
                 <div  class=" col-lg-12 text-center">
-                    <input style="background-color: #17161696; width: 31%;" class=" p-3 rounded-2 " type="email" placeholder="Email address">
+                    <input style="background-color: #17161696; width: 31%;" class=" p-3 rounded-2 my-input-holder " type="email" placeholder="Email address">
                     <a class="text-white mx-1 text-decoration-none " href="#"> <button
                         style="background-color: #ef0713; font-size: 18px;"
-                        class="btn p-3 px-5 rounded-2 fw-bold text-white btn-danger">Get
+                        class="btn my-get-button p-3 px-lg-5 rounded-2 fw-bold my-faq-text text-white btn-danger">Get
                         Started <i class="fa-solid text-white fa-chevron-right"></i></button></a>
                 </div>
                 
@@ -316,8 +322,8 @@
     <hr class="my-hr">
     <footer class="container-fluid " style="background-color: black;">
         <div style="margin-left: 7%;" class="row ">
-            <div class="row mt-4 mb-2">
-                <div class="col-lg-3 mx-5 col-md-6 mb-4   mb-md-0">
+            <div class="row mt-lg-4 mb-2">
+                <div class="col-lg-3 mx-lg-5 col-md-6 mb-lg-4   mt-md-0">
                     <p style=" font-size: 15px;" class="text-muted mt-5">Questions? Call <a style=" font-size: 15px;"
                             href="#" class="text-muted">000-800-919-1694</a> </p>
                     <ul class="list-unstyled mt-4 mb-2">
@@ -343,7 +349,7 @@
 
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4  mt-5 mb-md-0">
+                <div class="col-lg-3 col-md-6 mb-lg-4  mt-lg-5  mt-md-0 mb-md-0">
 
                     <ul class="list-unstyled mt-5 mb-2">
                         <li class="mb-2">
@@ -370,7 +376,7 @@
 
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4 mt-5   mb-md-0">
+                <div class="col-lg-3 col-md-6 mb-lg-4 mt-lg-5  mt-md-0   mb-md-0">
 
                     <ul class="list-unstyled mb-2 mt-5">
                         <li class="mb-2">
@@ -397,7 +403,7 @@
                     </ul>
                 </div>
             </div>
-            <div  class="col-lg-2 mx-5 mb-2 mt-3">
+            <div  class="col-lg-2  mx-lg-5 mb-2 mt-3">
                 <div>
 
                     <select class="form-select w-50 bg-transparent text-white fa-globe" aria-label="Default select example">
@@ -410,7 +416,7 @@
                 </div>
             </div>
             <div class="row">
-            <div  class="col-lg-2 mx-5 mb-5 mt-3">
+            <div  class="col-lg-2 mx-lg-5 mb-5 mt-3">
                 <div>
                   <p class="text-muted" style="font-size: 15px;">Netflix India</p>
                 </div>
